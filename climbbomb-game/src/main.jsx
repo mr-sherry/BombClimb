@@ -8,7 +8,7 @@ import Register from './Pages/Register/Register.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App />}>
+    <Route path="/" element={<Game />}>
       <Route path='game' element={<Game />} />
       <Route path='profile' element={<Profile />} />
       <Route path='login' element={<Login />} />
