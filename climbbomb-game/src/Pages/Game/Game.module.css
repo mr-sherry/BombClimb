@@ -8,7 +8,18 @@
   gap: 150px;
   margin: 30px;
 }
-
+@media (max-width: 678px) {
+  .mainDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+  }
+}
 .mainGridDiv {
   display: flex;
   flex-direction: column;
